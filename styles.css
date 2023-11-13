@@ -1,0 +1,59 @@
+/* Custom Styles */
+/* Navbar */
+.navbar {
+    padding: 20px;
+    transition: background 0.5s ease-in-out;
+}
+
+.navbar a {
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #555;
+}
+
+/* Hero Section */
+#hero {
+    background: #f8f8f8;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 40px 0;
+}
+
+/* Services Section */
+#services {
+    background: #f8f8f8;
+    padding: 40px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    padding: 40px 0;
+}
